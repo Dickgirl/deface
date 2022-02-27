@@ -707,23 +707,7 @@ class TextScramble {
   }
 }
 
-const phrases = [
-  'Yes i Sim swapped your nan',
-  'Yes i stole her penton money',
-  'Yes i touched you differently',
-  'My crime is boredom',
-  'Stuck my dick in a tree once',
-  'i am the spookest hacker',
-  'send nukes to isis',
-  'after all, were all alike.',
-  'i hacked a printer once',
-  'Imagine getting Clowned by envy LMFAO',
-  'if her age is on the cock, shes ready for the cock',
-  'compare funds',
-  'bootersqaurd ran your mom',
-  'smoke weed but its coke',
-  'exxploiting is not kegz'
-]
+const phrases = [  'Yes i Sim swapped your nan',  'Yes i stole her penton money',  'Yes i touched you differently',  'My crime is boredom',  'Stuck my dick in a tree once',  'i am the spookest hacker',  'send nukes to isis',  'after all, were all alike.',  'i hacked a printer once',  'Imagine getting Clowned by envy LMFAO',  'if her age is on the cock, shes ready for the cock',  'compare funds',  'bootersqaurd ran your mom',  'smoke weed but its coke',  'exxploiting is not kegz']
 
 const el = document.querySelector('.text')
 const fx = new TextScramble(el)
@@ -742,8 +726,7 @@ next()
 
 var app = {
 
-  chars: ['Exxploiting','Hellsec','Envy','Zalgo','antichrist#0001','Blake','Anthony Fitim','Twisty','Meowth','Nylon','federal','I9','Marley','sorrwo','big blrrd
-'],
+  chars: ['Exxploiting','Hellsec','Envy','Zalgo','antichrist#0001','Blake','Anthony Fitim','Twisty','Meowth','Nylon','federal','I9','Marley','sorrwo','big blrrd'],
 
   init: function () {
     app.container = document.createElement('div');
