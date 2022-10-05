@@ -707,7 +707,7 @@ class TextScramble {
   }
 }
 
-const phrases = [  'Yes i Sim swapped your nan',  'Yes i stole her penton money',  'Yes i touched you differently',  'My crime is boredom',  'Stuck my dick in a tree once',  'i am the spookest hacker',  'send nukes to isis',  'after all, were all alike.',  'i hacked a printer once',  'Imagine getting Clowned by envy LMFAO',  'if her age is on the cock, shes ready for the cock',  'compare funds',  'bootersqaurd ran your mom',  'smoke weed but its coke',  'exxploiting is not kegz', 'whatsa 3way tcp handshake', 'i have youe address', 'buy my twitters', 'bored 🤤', '❄DM ME for my SKYBLOCK server❄']
+const phrases = [  'Yes i Sim swapped your nan',  'Yes i stole her penton money',  'Yes i touched you differently',  'My crime is boredom',  'Stuck my dick in a tree once',  'i am the spookest hacker',  'send nukes to isis',  'after all, were all alike.',  'i hacked a printer once',  'Imagine getting Clowned by envy LMFAO',  'if her age is on the cock, shes ready for the cock',  'compare funds',  'bootersqaurd ran your mom',  'smoke weed but its coke',  'exxploiting is not kegz', 'whatsa 3way tcp handshake', 'i have youe address', 'buy my twitters', 'bored 🤤', '❄DM ME for my SKYBLOCK server❄', 'if you wear socks inside out', 'the entire universe is wearing your socks except you', 'do u happen to know anyone with contacts for hellsec', 'na not since his gf kidnapped him', 'what in the dead chat 💀', 'Im not fully understanding your issue', 'Spooky Da hacker hunter', 'brian krebs got a fat forehead', 'everyone in atc wanted it all to end really.']
 
 const el = document.querySelector('.text')
 const fx = new TextScramble(el)
