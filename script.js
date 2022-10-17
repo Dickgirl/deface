@@ -726,7 +726,7 @@ next()
 
 var app = {
 
-  chars: ['Exxploiting','Hellsec','Envy','Zalgo','antichrist#0001','Blake','Anthony Fitim','Twisty','Meowth','Nylon','federal','I9','Marley','sorrwo','big blrrd','Essence','hovering','RootKomodo','meds','byte','Miami','FEAR','Karma឵','Jaley','Snowicide','Patrick Bateman','UnnamedAce','Iritium','Mr.Feed','Antoine','Apoolo','Senful','Mystec','franz','HalfSaiyanBlood'],
+  chars: ['Kole','Apophis','Gregor','Exxploiting','Hellsec','Envy','Zalgo','antichrist#0001','Blake','Anthony Fitim','Twisty','Meowth','Nylon','federal','I9','Marley','sorrwo','big blrrd','Essence','hovering','RootKomodo','meds','byte','Miami','FEAR','Karma឵','Jaley','Snowicide','Patrick Bateman','UnnamedAce','Iritium','Mr.Feed','Antoine','Apoolo','Senful','Mystec','franz','HalfSaiyanBlood'],
 
   init: function () {
     app.container = document.createElement('div');
