@@ -2,7 +2,7 @@
  * Common options
  */
 let startMusic  = true;   // auto start music (firefox only)
-let cycleColor  = false;  // cycle colors
+let cycleColor  = true ;  // cycle colors
 let commonHue   = 0.038;  // initial color
 let commonColor = new THREE.Color();
 commonColor.setHSL( commonHue, .8, .5 );
@@ -707,7 +707,48 @@ class TextScramble {
   }
 }
 
-const phrases = [  'Yes i Sim swapped your nan',  'Yes i stole her penton money',  'Yes i touched you differently',  'My crime is boredom',  'Stuck my dick in a tree once',  'i am the spookest hacker',  'send nukes to isis',  'after all, were all alike.',  'i hacked a printer once',  'Imagine getting Clowned by envy LMFAO',  'if her age is on the cock, shes ready for the cock',  'compare funds',  'bootersqaurd ran your mom',  'smoke weed but its coke',  'exxploiting is not kegz', 'whatsa 3way tcp handshake', 'i have youe address', 'buy my twitters', 'bored 🤤', '❄DM ME for my SKYBLOCK server❄', 'if you wear socks inside out', 'the entire universe is wearing your socks except you', 'do u happen to know anyone with contacts for hellsec', 'na not since his gf kidnapped him', 'what in the dead chat 💀', 'Im not fully understanding your issue', 'Spooky Da hacker hunter', 'brian krebs got a fat forehead', 'everyone in atc wanted it all to end really.','Money can buy you OSINT skills at astral.rest','Nobody can make you feel inferior without your permission.','hi uwu','Mazed - boobs are cool','can vouch especially the vault $70 for a 5 minute lap dance','cum in the shower, don’t shower in cum','shower in cum, dont cum in the shower','Meow','pwning sites since 1760','This site raped everyone I know','after spending 2 hours and a couple lines from what im understanding loli just means fucking short','so if u under 5ft ur a loli comfirmed','Exxploiting i didnt know you can dance','i sent a pipe bomb to exxploitings dads house']
+const phrases = [  'Yes i Sim swapped your nan',  
+                 'Yes i stole her penton money',  
+                 'Yes i touched you differently',  
+                 'My crime is boredom',  
+                 'Stuck my dick in a tree once',  
+                 'i am the spookest hacker', 
+                 'send nukes to isis',  
+                 'after all, were all alike.',  
+                 'i hacked a printer once',  
+                 'Imagine getting Clowned by envy LMFAO',  
+                 'if her age is on the cock, shes ready for the cock',  
+                 'compare funds',  'bootersqaurd ran your mom',  
+                 'smoke weed but its coke',  
+                 'exxploiting is not kegz', 
+                 'whatsa 3way tcp handshake', 
+                 'i have youe address', 
+                 'buy my twitters', 
+                 'bored 🤤', 
+                 '❄DM ME for my SKYBLOCK server❄', 
+                 'if you wear socks inside out', 
+                 'the entire universe is wearing your socks except you', 
+                 'do u happen to know anyone with contacts for hellsec', 
+                 'na not since his gf kidnapped him', 
+                 'what in the dead chat 💀', 
+                 'Im not fully understanding your issue', 
+                 'Spooky Da hacker hunter', 
+                 'brian krebs got a fat forehead', 
+                 'everyone in atc wanted it all to end really.',
+                 'Money can buy you OSINT skills at astral.rest',
+                 'Nobody can make you feel inferior without your permission.',
+                 'hi uwu',
+                 'Mazed - boobs are cool',
+                 'can vouch especially the vault $70 for a 5 minute lap dance',
+                 'cum in the shower, don’t shower in cum',
+                 'shower in cum, dont cum in the shower',
+                 'Meow',
+                 'pwning sites since 1760',
+                 'This site raped everyone I know',
+                 'after spending 2 hours and a couple lines from what im understanding loli just means fucking short',
+                 'so if u under 5ft ur a loli comfirmed',
+                 'Exxploiting i didnt know you can dance',
+                 'i sent a pipe bomb to exxploitings dads house']
 
 const el = document.querySelector('.text')
 const fx = new TextScramble(el)
@@ -726,7 +767,44 @@ next()
 
 var app = {
 
-  chars: ['Kole','Apophis','Gregor','Exxploiting','Hellsec','Envy','Zalgo','antichrist#0001','Blake','Anthony Fitim','Twisty','Meowth','Nylon','federal','I9','Marley','sorrwo','big blrrd','Essence','hovering','RootKomodo','meds','byte','Miami','FEAR','Karma឵','Jaley','Snowicide','Patrick Bateman','UnnamedAce','Iritium','Mr.Feed','Antoine','Apoolo','Senful','Mystec','franz','HalfSaiyanBlood'],
+  chars: ['Kole',
+          'Apophis',
+          'Gregor',
+          'Exxploiting',
+          'Hellsec',
+          'Envy',
+          'Zalgo',
+          'antichrist#0001',
+          'Blake',
+          'Anthony Fitim',
+          'Twisty',
+          'Meowth',
+          'Nylon',
+          'federal',
+          'I9',
+          'Marley',
+          'sorrwo',
+          'big blrrd',
+          'Essence',
+          'hovering',
+          'RootKomodo',
+          'meds',
+          'byte',
+          'Miami',
+          'FEAR',
+          'Karma឵',
+          'Jaley',
+          'Snowicide',
+          'Patrick Bateman',
+          'UnnamedAce',
+          'Iritium',
+          'Mr.Feed',
+          'Antoine',
+          'Apoolo',
+          'Senful',
+          'Mystec',
+          'franz',
+          'HalfSaiyanBlood']
 
   init: function () {
     app.container = document.createElement('div');
