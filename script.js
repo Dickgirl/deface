@@ -738,7 +738,7 @@ const phrases = [  'Yes i Sim swapped your nan',
                  'Money can buy you OSINT skills at astral.rest',
                  'Nobody can make you feel inferior without your permission.',
                  'hi uwu',
-                 'Mazed - boobs are cool',
+                 'Mazed boobs are cool',
                  'can vouch especially the vault $70 for a 5 minute lap dance',
                  'cum in the shower, don’t shower in cum',
                  'shower in cum, dont cum in the shower',
@@ -804,7 +804,7 @@ var app = {
           'Senful',
           'Mystec',
           'franz',
-          'HalfSaiyanBlood']
+          'HalfSaiyanBlood'],
 
   init: function () {
     app.container = document.createElement('div');
